@@ -16,7 +16,7 @@ class Stack:
         if not self.isEmpty():
             return self.items.pop()
         else:
-            return None  # Return None when stack is empty
+            return None  
 
     def peek(self):
         if not self.isEmpty():
